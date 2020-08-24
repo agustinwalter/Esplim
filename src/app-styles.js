@@ -14,7 +14,10 @@ const useStyles = makeStyles((theme) => ({
   divScreenOne: {
     height: '100vh',
     textAlign: 'center',
-    boxSizing: 'border-box'
+    boxSizing: 'border-box',
+    [theme.breakpoints.down('xs')]: {
+      height: 'auto',
+    }
   },
   divTextScrOne: {
     display: 'flex',
@@ -40,7 +43,8 @@ const useStyles = makeStyles((theme) => ({
   h1Variant: {
     fontSize: '60px',
     [theme.breakpoints.down('xs')]: {
-      fontSize: '48px'
+      fontSize: '48px',
+      marginTop: '50px'
     }
   },
   h2Variant: {
@@ -76,6 +80,7 @@ const useStyles = makeStyles((theme) => ({
       display: 'block',
       margin: '0',
       marginBottom: '40px',
+      marginTop: '20px'
     }
   },
   cardPhoto: {
@@ -90,8 +95,8 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down('xs')]: {
       transform: 'none',
-      marginTop: '30px',
       width: '100%',
+      marginTop: '60px'
     }
   },
   divCardPhoto2: {
@@ -146,10 +151,17 @@ const useStyles = makeStyles((theme) => ({
   divFaq: {
     flexDirection: 'column',
     backgroundColor: '#f5f5f5',
-    justifyContent : 'center'
+    justifyContent : 'center',
+    [theme.breakpoints.down('xs')]: {
+      paddingTop: '20px',
+      paddingBottom: '40px'
+    }
   },
   divEnd: {
     backgroundColor: 'black',
+    [theme.breakpoints.down('xs')]: {
+      margin: '0'
+    }
   }
 }))
 
