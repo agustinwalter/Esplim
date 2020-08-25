@@ -202,21 +202,21 @@ function App() {
             variant="h5"
             component="h4"
             className={classes.h5Variant} >
-            Imagina que te pasamos un presupuesto de <b>AR$30000</b> y un tiempo de desarrollo de <b>30 días</b>. En este ejemplo, el precio por cada día de trabajo es de <b>AR$1000</b>.
+            Imagina que te pasamos un presupuesto de <b>$400</b> (dólares) y un tiempo de desarrollo de <b>40 días</b>. En este ejemplo, el precio por cada día de trabajo es de <b>$10</b>.
           </Typography>
           <br></br>
           <Typography
             variant="h5"
             component="h4"
             className={classes.h5Variant} >
-            Este mes ahorraste <b>AR$10000</b>, así que depositas ese monto y nuestros programadores comienzan a trabajar durante <b>10 días</b>. (AR$10000 / AR$1000 = 10)
+            Este mes ahorraste <b>$100</b>, así que depositas ese monto y nuestros programadores comienzan a trabajar durante <b>10 días</b>. ($100 / $10 = 10)
           </Typography>
           <br></br>
           <Typography
             variant="h5"
             component="h4"
             className={classes.h5Variant} >
-            Terminado ese periodo, el proyecto quedará en pausa hasta que decidas reanudarlo. Si el mes que viene consigues <b>AR$5000</b> más, nuestros programadores trabajarán durante <b>5 días</b> más en tu proyecto. Así hasta finalizarlo ¿Comprendes?
+            Terminado ese periodo, el proyecto quedará en pausa hasta que decidas reanudarlo. Si el mes que viene consigues <b>$50</b> más, nuestros programadores trabajarán durante <b>5 días</b> más en tu proyecto. Así hasta finalizarlo ¿Comprendes?
           </Typography>
         </div>
         <Fab
@@ -251,7 +251,7 @@ function App() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Recibimos pagos por Mercado Pago o transferencia bancaria.
+                Recibimos pagos por Mercado Pago, transferencia bancaria o PayPal.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -319,7 +319,7 @@ function App() {
           variant="contained"
           color="primary"
           className={`${classes.btnOne} ${classes.btnOne2}`}
-          href='https://wa.me/543412622966'
+          href='https://wa.me/message/NFXV24XQVLBDD1'
           target='_blank'>
           ¡Contactar por WhatsApp!
         </Button>
